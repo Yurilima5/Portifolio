@@ -1,13 +1,18 @@
 import { useState } from 'react'
+import About from './components/about';
+import * as S from './components/start';
 
-
-function App() {
-  const [count, setCount] = useState(0)
+function App(){
 
   return (
     <>
+      <About/>
+    <S.Header>
+    </S.Header>
     </>
   )
 }
+
+
 
 export default App
