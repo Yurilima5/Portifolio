@@ -1,7 +1,7 @@
-import  styled from "styled-components"
-
-export const Header = styled.header`
-
-    background-color: black;
-    height: 23Vh;
-`
+export default function Start(){
+    return(
+        <>
+        <h1>Sou o Começo</h1>
+        </>
+    )
+}
